@@ -57,6 +57,15 @@ If PHP PEAR is down you can install PHP without PEAR. Specify `PHP_WITHOUT_PEAR`
 PHP_WITHOUT_PEAR=yes asdf install php <version>
 ```
 
+#### COMPOSER
+
+If you don't want to install Composer, specify `PHP_WITHOUT_COMPOSER` variable with any value
+(except no), eg:
+
+```bash
+PHP_WITHOUT_COMPOSER=yes asdf install php <version>
+```
+
 ## Usage
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to
